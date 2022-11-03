@@ -1,4 +1,4 @@
-public class Inverted_Star_Triangle {
+public class  Inverted_Star_Triangle {
     public static void main(String[] args) {
         int n = 5;
         inv_star(5);

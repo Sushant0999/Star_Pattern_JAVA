@@ -12,7 +12,7 @@ public class Vertical_Bridge {
             System.out.println();
         }
         n = n - 1;
-        for (int row = 1; row <= n - 1; row++){
+        for (int row = 1; row <= n; row++){
             for (int col = n; col >= row; col--){
                 System.out.print("* ");
             }
