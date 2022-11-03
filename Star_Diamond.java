@@ -5,7 +5,7 @@ public class Star_Diamond {
     }
 
     private static void star_diamond(int n) {
-        for(int row = 1; row <= n; row++){
+        for(int row = 1; row < n; row++){
             for(int col = 1; col <= n - row; col++){
                 System.out.print(" ");
             }
